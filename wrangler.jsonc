@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "favoris",
+  "compatibility_date": "2025-07-09",
+  "main": "./workers/app.ts",
+  "observability": {
+    "enabled": true,
+  },
+}
