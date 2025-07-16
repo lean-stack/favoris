@@ -11,6 +11,7 @@
     "create-user:prod": "node --env-file .env.prod scripts/create-user.ts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
     "drizzle-orm": "^0.44.3",
     "isbot": "^5.1.28",
     "react": "~19.1.0",
