@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.0
+
+[compare changes](https://github.com/lean-stack/favoris/compare/v0.1.0-pre.2...v0.1.0)
+
+### 🚀 Enhancements
+
+- Implement landing page. ([4b1070f](https://github.com/lean-stack/favoris/commit/4b1070f))
+
+### 🏡 Chore
+
+- Introduce color system. ([98d5291](https://github.com/lean-stack/favoris/commit/98d5291))
+
 ## v0.1.0-pre.2
 
 [compare changes](https://github.com/lean-stack/favoris/compare/v0.1.0-pre.1...v0.1.0-pre.2)
