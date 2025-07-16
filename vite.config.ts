@@ -4,6 +4,7 @@ import type { UserConfig } from "vite";
 // Plugins
 import { cloudflare } from "@cloudflare/vite-plugin";
 import { reactRouter } from "@react-router/dev/vite";
+import tailwindcss from "@tailwindcss/vite";
 
 export default {
   define: {
@@ -14,5 +15,9 @@ export default {
       "@/": fileURLToPath(new URL("./app/", import.meta.url)),
     },
   },
-  plugins: [cloudflare({ viteEnvironment: { name: "ssr" } }), reactRouter()],
+  plugins: [
+    cloudflare({ viteEnvironment: { name: "ssr" } }),
+    tailwindcss(),
+    reactRouter(),
+  ],
 } satisfies UserConfig;
