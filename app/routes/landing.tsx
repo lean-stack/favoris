@@ -1,6 +1,6 @@
 import type { Route } from "./+types/landing";
 
-import { db } from "../db/instance";
+import { db } from "@/db/instance";
 
 export async function loader() {
   const user = await db.query.users.findFirst();

@@ -8,17 +8,21 @@
   "compilerOptions": {
     // Source
     "strict": true,
+    "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
-    "lib": ["DOM", "DOM.Iterable", "ES2024"],
+    "target": "ES2024",
     "jsx": "react-jsx",
 
     // Bundler
-    "target": "ES2024",
+    "noEmit": true,
     "module": "Preserve",
     "types": ["vite/client"],
     "skipLibCheck": true,
 
     // DX
-    "rootDirs": [".", "./.react-router/types"]
+    "rootDirs": [".", "./.react-router/types"],
+    "paths": {
+      "@/*": ["./app/*"]
+    }
   }
 }
