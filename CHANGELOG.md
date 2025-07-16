@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v0.1.0-pre.2
+
+[compare changes](https://github.com/lean-stack/favoris/compare/v0.1.0-pre.1...v0.1.0-pre.2)
+
+### 🚀 Enhancements
+
+- Install typescript, refine config, add path alias. ([9fc489a](https://github.com/lean-stack/favoris/commit/9fc489a))
+- Add tailwindcss. ([9b28464](https://github.com/lean-stack/favoris/commit/9b28464))
+
+### 🏡 Chore
+
+- Upgrade react router. ([43175fd](https://github.com/lean-stack/favoris/commit/43175fd))
+- Update cloudflare packages. ([325a85b](https://github.com/lean-stack/favoris/commit/325a85b))
+
 ## v0.1.0-pre.1
 
 [compare changes](https://github.com/lean-stack/favoris/compare/v0.1.0-pre.0...v0.1.0-pre.1)
