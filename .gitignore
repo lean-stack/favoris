@@ -1,6 +1,3 @@
-# Secrets
-.dev.vars
-
 # Dependencies
 node_modules/
 

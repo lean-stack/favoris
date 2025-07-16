@@ -6,7 +6,7 @@ import { reactRouter } from "@react-router/dev/vite";
 
 export default {
   define: {
-    __DATABASE_URL__: JSON.stringify(process.env.BUILD_VAR),
+    __DATABASE_URL__: JSON.stringify(process.env.DATABASE_URL),
   },
   plugins: [cloudflare({ viteEnvironment: { name: "ssr" } }), reactRouter()],
 } satisfies UserConfig;
