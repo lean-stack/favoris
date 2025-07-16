@@ -4,6 +4,7 @@ node_modules/
 # Development
 .react-router/
 .env
+.env.prod
 
 # Build
 .wrangler/
