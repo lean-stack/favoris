@@ -3,8 +3,8 @@
   "version": "0.1.0-pre.0",
   "type": "module",
   "scripts": {
-    "dev": "react-router dev",
-    "build": "react-router build",
+    "dev": "dotenv -- react-router dev",
+    "build": "dotenv -- react-router build",
     "drizzle-kit": "drizzle-kit",
     "drizzle-kit:prod": "dotenv -e .env.prod drizzle-kit",
     "create-user": "node --env-file .env scripts/create-user.ts",
