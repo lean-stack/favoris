@@ -19,7 +19,7 @@ export default function LandingRoute() {
       <p className="flex max-md:flex-col justify-center items-center text-accent-12 gap-2">
         <LightbulbIcon className="shrink-0 self-center" />
         <span>
-          Dann schreibe mir halt meinen eigenen Dienst. Und hier ist er!
+          Dann schreibe ich mir halt meinen eigenen Dienst. Und hier ist er!
         </span>
       </p>
       <div>
