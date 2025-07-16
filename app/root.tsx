@@ -1,6 +1,6 @@
 import { Outlet, Scripts, ScrollRestoration } from "react-router";
 
-import "./styles/root.css";
+import stylesheet from "./styles/root.css?url";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -8,6 +8,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href={stylesheet} />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
       </head>
       <body className="bg-app-bg text-app-12">
