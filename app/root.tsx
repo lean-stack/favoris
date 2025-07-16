@@ -1,6 +1,6 @@
 import { Outlet, Scripts, ScrollRestoration } from "react-router";
 
-import "./root.css";
+import "./styles/root.css";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -10,8 +10,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
       </head>
-      <body>
-        {children}
+      <body className="bg-app-bg text-app-12">
+        <div className="isolate min-h-svh w-full flex flex-col">{children}</div>
         <ScrollRestoration />
         <Scripts />
       </body>
